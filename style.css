@@ -3,7 +3,9 @@ body {
     background-repeat:no-repeat;
     font-family: sans-serif;
     font-size: 0.9em;
-    background-size:100%
+    background-size: cover;
+    height: 100%;
+    text-indent: -9999px;
 }
 table {
     transition:transform 1.5s;
@@ -25,7 +27,7 @@ td {
     padding: 15px;
     opacity:90%;
 }
-
+/* test */
 tr {
     text-align: center;
 }
