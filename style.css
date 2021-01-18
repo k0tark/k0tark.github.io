@@ -40,23 +40,6 @@ caption {
     font-family:'Courier New', Courier, monospace;
     padding:15px;
 }
-    footer {
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-}
-    }
-
-    p.copyright {
-        position: absolute;
-        width: 100%;
-        color: #fff;
-        line-height: 40px;
-        font-size: 0.9em;
-        text-align: center;
-        bottom:0;
-    }
     td {
         font-size: 22px;
     }
