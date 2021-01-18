@@ -41,9 +41,11 @@ caption {
     padding:15px;
 }
     footer {
-        position: relative;
-        height: 350px;
-        width: 100%;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
     }
 
     p.copyright {
