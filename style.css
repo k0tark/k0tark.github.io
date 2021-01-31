@@ -1,6 +1,6 @@
 body {
-  background-color: #2d2e2e;
-  font-family: "Courier New", monospace;
+  background-color: rgb(25, 33, 42) ;
+  font-family: Roboto, sans-serif;
   text-align: center;
 }
 #mainheading {
@@ -9,6 +9,7 @@ body {
   text-align: center;
   color: #f0e5d8;
   text-shadow: 2px 1.5px #ff0000;
+      font-family: "Courier New", monospace;
 }
 #flag {
   margin-top: 30px;
@@ -27,18 +28,20 @@ body {
 }
 
 .box {
-  background-color: #bbdfc8;
-  width: inherit;
-  height: 120px;
-  transition: transform 0.5s;
+  margin: 20px 0px;
+  min-height: 130px;
+  min-width: 250px;
   border-radius: 10px;
+  background-color: rgb(33, 43, 54);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: white 1px solid;
 }
-.box:hover {
-  transform: scale(1.1);
-}
+
 p {
   margin-top: 7px;
-  color: #351f39;
+  color: white;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 12px;
@@ -47,9 +50,6 @@ span {
   font-size: 48px;
   font-family: Roboto, sans-serif !important;
   letter-spacing: 2px !important;
-}
-.nodata {
-  border: #ff0000 3px solid;
 }
 h3 {
   color: rgba(240, 248, 255, 0.864);
@@ -76,4 +76,13 @@ h3 {
 a {
   text-decoration: none;
   color: rgba(240, 248, 255, 0.864);
+}
+@media (max-width: 768px)
+{
+.box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 }
